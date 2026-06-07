@@ -1,0 +1,65 @@
+# ── Xcode ───────────────────────────────────────────────────────────────
+# 사용자별 설정 (다른 사람 환경에 영향 없어야 함)
+xcuserdata/
+*.xcuserstate
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+
+# 빌드 산출물
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# ── Swift Package Manager ────────────────────────────────────────────────
+.swiftpm/build/
+.build/
+Packages/
+# Package.resolved 는 재현 가능 빌드를 위해 커밋 권장 (SPM 사용 시)
+# Package.resolved
+
+# ── CocoaPods (미사용이지만 예비) ─────────────────────────────────────────
+Pods/
+Podfile.lock
+
+# ── Carthage ─────────────────────────────────────────────────────────────
+Carthage/Build/
+
+# ── macOS ────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# ── 환경·시크릿 ──────────────────────────────────────────────────────────
+.env
+.env.local
+*.pem
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# ── Claude Code 로컬 설정 ────────────────────────────────────────────────
+.claude/settings.local.json
+
+# ── 에디터 ───────────────────────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ── fastlane ─────────────────────────────────────────────────────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
